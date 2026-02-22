@@ -1,0 +1,10 @@
+
+> redvsblue@2.0.0 server
+> node server/index.js
+
+[dotenv@17.3.1] injecting env (1) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[BACKEND] Server on http://localhost:3004
+[BACKEND] APIs: /api/attacks/definitions, /api/logs, /api/scores, /api/report, /api/health
+[BACKEND] Attack routes mounted
+[BACKEND] Client connected: 48pwjuKSCoRfAF_eAAAB
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 

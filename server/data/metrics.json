@@ -1,0 +1,1658 @@
+{
+  "totalAttacks": 83,
+  "successfulAttacks": 23,
+  "blockedAttacks": 57,
+  "totalDetections": 38,
+  "avgSystemHealth": 74,
+  "attackTypes": {
+    "Stored XSS": 18,
+    "Ransomware Simulation": 7,
+    "Reflected XSS": 14,
+    "Privilege Escalation": 8,
+    "CSRF": 9,
+    "Reverse Shell": 7,
+    "SYN Flood (DDoS)": 2,
+    "Zero-Day Exploit": 4,
+    "DNS Spoofing": 3,
+    "Phishing Campaign": 3,
+    "Malware Beaconing": 3,
+    "Man-in-the-Middle": 3,
+    "Data Exfiltration": 2
+  },
+  "healthHistory": [
+    {
+      "health": 99.5,
+      "timestamp": 1771703580319
+    },
+    {
+      "health": 100,
+      "timestamp": 1771703584324
+    },
+    {
+      "health": 99.5,
+      "timestamp": 1771703651662
+    },
+    {
+      "health": 94.5,
+      "timestamp": 1771703655666
+    },
+    {
+      "health": 86.5,
+      "timestamp": 1771703816709
+    },
+    {
+      "health": 86.2,
+      "timestamp": 1771703817996
+    },
+    {
+      "health": 84.7,
+      "timestamp": 1771703819161
+    },
+    {
+      "health": 84.5,
+      "timestamp": 1771703820318
+    },
+    {
+      "health": 87.5,
+      "timestamp": 1771703820998
+    },
+    {
+      "health": 86.5,
+      "timestamp": 1771703821411
+    },
+    {
+      "health": 86,
+      "timestamp": 1771703822377
+    },
+    {
+      "health": 89,
+      "timestamp": 1771703823831
+    },
+    {
+      "health": 79.5,
+      "timestamp": 1771703824108
+    },
+    {
+      "health": 74.5,
+      "timestamp": 1771703824715
+    },
+    {
+      "health": 65,
+      "timestamp": 1771703824716
+    },
+    {
+      "health": 69.5,
+      "timestamp": 1771703825162
+    },
+    {
+      "health": 67.5,
+      "timestamp": 1771703825540
+    },
+    {
+      "health": 62.5,
+      "timestamp": 1771703826379
+    },
+    {
+      "health": 65.5,
+      "timestamp": 1771703826424
+    },
+    {
+      "health": 30,
+      "timestamp": 1771703826426
+    },
+    {
+      "health": 65,
+      "timestamp": 1771703827968
+    },
+    {
+      "health": 64.9,
+      "timestamp": 1771703829869
+    },
+    {
+      "health": 64.7,
+      "timestamp": 1771703830668
+    },
+    {
+      "health": 63.2,
+      "timestamp": 1771703831594
+    },
+    {
+      "health": 58.2,
+      "timestamp": 1771703832474
+    },
+    {
+      "health": 5,
+      "timestamp": 1771703832475
+    },
+    {
+      "health": 61.2,
+      "timestamp": 1771703832548
+    },
+    {
+      "health": 58.7,
+      "timestamp": 1771703833310
+    },
+    {
+      "health": 61.7,
+      "timestamp": 1771703834122
+    },
+    {
+      "health": 0,
+      "timestamp": 1771703834124
+    },
+    {
+      "health": 64.7,
+      "timestamp": 1771703834880
+    },
+    {
+      "health": 64.2,
+      "timestamp": 1771703835427
+    },
+    {
+      "health": 63.900000000000006,
+      "timestamp": 1771703836268
+    },
+    {
+      "health": 62.400000000000006,
+      "timestamp": 1771703837148
+    },
+    {
+      "health": 54.400000000000006,
+      "timestamp": 1771703837856
+    },
+    {
+      "health": 57.400000000000006,
+      "timestamp": 1771703838098
+    },
+    {
+      "health": 56.400000000000006,
+      "timestamp": 1771703839047
+    },
+    {
+      "health": 59.400000000000006,
+      "timestamp": 1771703839276
+    },
+    {
+      "health": 0,
+      "timestamp": 1771703839277
+    },
+    {
+      "health": 54.400000000000006,
+      "timestamp": 1771703839441
+    },
+    {
+      "health": 0,
+      "timestamp": 1771703839443
+    },
+    {
+      "health": 54.2,
+      "timestamp": 1771703839775
+    },
+    {
+      "health": 57.2,
+      "timestamp": 1771703840680
+    },
+    {
+      "health": 52.2,
+      "timestamp": 1771703842313
+    },
+    {
+      "health": 0,
+      "timestamp": 1771703842315
+    },
+    {
+      "health": 55.2,
+      "timestamp": 1771703843159
+    },
+    {
+      "health": 0,
+      "timestamp": 1771703843160
+    },
+    {
+      "health": 50.2,
+      "timestamp": 1771703843290
+    },
+    {
+      "health": 0,
+      "timestamp": 1771703843291
+    },
+    {
+      "health": 53.2,
+      "timestamp": 1771703844057
+    },
+    {
+      "health": 0,
+      "timestamp": 1771703844058
+    },
+    {
+      "health": 56.2,
+      "timestamp": 1771703845859
+    },
+    {
+      "health": 0,
+      "timestamp": 1771703845860
+    },
+    {
+      "health": 55.7,
+      "timestamp": 1771704598778
+    },
+    {
+      "health": 55.400000000000006,
+      "timestamp": 1771704599601
+    },
+    {
+      "health": 55.2,
+      "timestamp": 1771704600952
+    },
+    {
+      "health": 47.2,
+      "timestamp": 1771704602414
+    },
+    {
+      "health": 42.2,
+      "timestamp": 1771704602612
+    },
+    {
+      "health": 45.2,
+      "timestamp": 1771704602794
+    },
+    {
+      "health": 43.7,
+      "timestamp": 1771704603425
+    },
+    {
+      "health": 46.7,
+      "timestamp": 1771704604458
+    },
+    {
+      "health": 50,
+      "timestamp": 1771704604460
+    },
+    {
+      "health": 45.7,
+      "timestamp": 1771704606014
+    },
+    {
+      "health": 48.7,
+      "timestamp": 1771704609439
+    },
+    {
+      "health": 51.7,
+      "timestamp": 1771704610425
+    },
+    {
+      "health": 15,
+      "timestamp": 1771704610426
+    },
+    {
+      "health": 54.7,
+      "timestamp": 1771704611015
+    },
+    {
+      "health": 0,
+      "timestamp": 1771704611017
+    },
+    {
+      "health": 99.5,
+      "timestamp": 1771706801322
+    },
+    {
+      "health": 99.2,
+      "timestamp": 1771706802107
+    },
+    {
+      "health": 97.7,
+      "timestamp": 1771706802990
+    },
+    {
+      "health": 96.7,
+      "timestamp": 1771706804011
+    },
+    {
+      "health": 99.7,
+      "timestamp": 1771706805115
+    },
+    {
+      "health": 94.7,
+      "timestamp": 1771706805329
+    },
+    {
+      "health": 89.7,
+      "timestamp": 1771706808995
+    },
+    {
+      "health": 92.7,
+      "timestamp": 1771706809019
+    },
+    {
+      "health": 92.2,
+      "timestamp": 1771709722451
+    },
+    {
+      "health": 91.9,
+      "timestamp": 1771709723389
+    },
+    {
+      "health": 91.7,
+      "timestamp": 1771709724330
+    },
+    {
+      "health": 83.7,
+      "timestamp": 1771709725672
+    },
+    {
+      "health": 86.7,
+      "timestamp": 1771709726397
+    },
+    {
+      "health": 85,
+      "timestamp": 1771709726398
+    },
+    {
+      "health": 89.7,
+      "timestamp": 1771709726462
+    },
+    {
+      "health": 88.2,
+      "timestamp": 1771709726705
+    },
+    {
+      "health": 91.2,
+      "timestamp": 1771709727830
+    },
+    {
+      "health": 94.2,
+      "timestamp": 1771709732712
+    },
+    {
+      "health": 60,
+      "timestamp": 1771709732714
+    },
+    {
+      "health": 89.2,
+      "timestamp": 1771709733681
+    },
+    {
+      "health": 25,
+      "timestamp": 1771709733688
+    },
+    {
+      "health": 88.7,
+      "timestamp": 1771709870239
+    },
+    {
+      "health": 91.7,
+      "timestamp": 1771709874241
+    },
+    {
+      "health": 35,
+      "timestamp": 1771709874242
+    },
+    {
+      "health": 91.2,
+      "timestamp": 1771710152528
+    },
+    {
+      "health": 90.9,
+      "timestamp": 1771710153889
+    },
+    {
+      "health": 85.9,
+      "timestamp": 1771710156540
+    },
+    {
+      "health": 25,
+      "timestamp": 1771710156541
+    },
+    {
+      "health": 88.9,
+      "timestamp": 1771710156896
+    },
+    {
+      "health": 88.4,
+      "timestamp": 1771710163333
+    },
+    {
+      "health": 83.4,
+      "timestamp": 1771710167341
+    },
+    {
+      "health": 83.10000000000001,
+      "timestamp": 1771710169748
+    },
+    {
+      "health": 78.10000000000001,
+      "timestamp": 1771710172759
+    },
+    {
+      "health": 77.60000000000001,
+      "timestamp": 1771710297588
+    },
+    {
+      "health": 80.60000000000001,
+      "timestamp": 1771710301599
+    },
+    {
+      "health": 99.5,
+      "timestamp": 1771734997407
+    },
+    {
+      "health": 99.2,
+      "timestamp": 1771734998358
+    },
+    {
+      "health": 99,
+      "timestamp": 1771734999389
+    },
+    {
+      "health": 94,
+      "timestamp": 1771735001362
+    },
+    {
+      "health": 89,
+      "timestamp": 1771735001415
+    },
+    {
+      "health": 85,
+      "timestamp": 1771735001416
+    },
+    {
+      "health": 84,
+      "timestamp": 1771735002904
+    },
+    {
+      "health": 70,
+      "timestamp": 1771735002906
+    },
+    {
+      "health": 83.5,
+      "timestamp": 1771735213530
+    },
+    {
+      "health": 86.5,
+      "timestamp": 1771735217540
+    },
+    {
+      "health": 70,
+      "timestamp": 1771735217541
+    },
+    {
+      "health": 78.5,
+      "timestamp": 1771735223792
+    },
+    {
+      "health": 81.5,
+      "timestamp": 1771735231796
+    },
+    {
+      "health": 35,
+      "timestamp": 1771735231798
+    },
+    {
+      "health": 81,
+      "timestamp": 1771735232716
+    },
+    {
+      "health": 76,
+      "timestamp": 1771735236721
+    },
+    {
+      "health": 75.7,
+      "timestamp": 1771735243799
+    },
+    {
+      "health": 80.7,
+      "timestamp": 1771735246663
+    },
+    {
+      "health": 80.4,
+      "timestamp": 1771735250803
+    },
+    {
+      "health": 85.4,
+      "timestamp": 1771735253238
+    },
+    {
+      "health": 83.4,
+      "timestamp": 1771735260100
+    },
+    {
+      "health": 88.4,
+      "timestamp": 1771735266035
+    },
+    {
+      "health": 80.4,
+      "timestamp": 1771735271738
+    },
+    {
+      "health": 78.9,
+      "timestamp": 1771735273703
+    },
+    {
+      "health": 77.9,
+      "timestamp": 1771735274469
+    },
+    {
+      "health": 77.4,
+      "timestamp": 1771735275422
+    },
+    {
+      "health": 75.4,
+      "timestamp": 1771735276331
+    },
+    {
+      "health": 74.9,
+      "timestamp": 1771735279209
+    },
+    {
+      "health": 77.9,
+      "timestamp": 1771735279470
+    },
+    {
+      "health": 15,
+      "timestamp": 1771735279472
+    },
+    {
+      "health": 80.9,
+      "timestamp": 1771735279715
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735279716
+    },
+    {
+      "health": 83.9,
+      "timestamp": 1771735279738
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735279739
+    },
+    {
+      "health": 86.9,
+      "timestamp": 1771735279935
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735279936
+    },
+    {
+      "health": 86.60000000000001,
+      "timestamp": 1771735280615
+    },
+    {
+      "health": 86.4,
+      "timestamp": 1771735281400
+    },
+    {
+      "health": 86.2,
+      "timestamp": 1771735282637
+    },
+    {
+      "health": 86.10000000000001,
+      "timestamp": 1771735283034
+    },
+    {
+      "health": 81.10000000000001,
+      "timestamp": 1771735283215
+    },
+    {
+      "health": 84.10000000000001,
+      "timestamp": 1771735283339
+    },
+    {
+      "health": 87.10000000000001,
+      "timestamp": 1771735283622
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735283623
+    },
+    {
+      "health": 85.60000000000001,
+      "timestamp": 1771735284200
+    },
+    {
+      "health": 88.60000000000001,
+      "timestamp": 1771735284899
+    },
+    {
+      "health": 86.10000000000001,
+      "timestamp": 1771735285967
+    },
+    {
+      "health": 89.10000000000001,
+      "timestamp": 1771735288035
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735288036
+    },
+    {
+      "health": 81.10000000000001,
+      "timestamp": 1771735288468
+    },
+    {
+      "health": 80.60000000000001,
+      "timestamp": 1771735289544
+    },
+    {
+      "health": 80.30000000000001,
+      "timestamp": 1771735290237
+    },
+    {
+      "health": 83.30000000000001,
+      "timestamp": 1771735290715
+    },
+    {
+      "health": 83.10000000000001,
+      "timestamp": 1771735291199
+    },
+    {
+      "health": 82.10000000000001,
+      "timestamp": 1771735292188
+    },
+    {
+      "health": 85.10000000000001,
+      "timestamp": 1771735292652
+    },
+    {
+      "health": 83.60000000000001,
+      "timestamp": 1771735292861
+    },
+    {
+      "health": 86.60000000000001,
+      "timestamp": 1771735293249
+    },
+    {
+      "health": 89.60000000000001,
+      "timestamp": 1771735293552
+    },
+    {
+      "health": 89.50000000000001,
+      "timestamp": 1771735294083
+    },
+    {
+      "health": 84.50000000000001,
+      "timestamp": 1771735294700
+    },
+    {
+      "health": 87.50000000000001,
+      "timestamp": 1771735294970
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735294973
+    },
+    {
+      "health": 78.00000000000001,
+      "timestamp": 1771735295008
+    },
+    {
+      "health": 76.00000000000001,
+      "timestamp": 1771735295532
+    },
+    {
+      "health": 79.00000000000001,
+      "timestamp": 1771735296480
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735296481
+    },
+    {
+      "health": 78.50000000000001,
+      "timestamp": 1771735296489
+    },
+    {
+      "health": 81.50000000000001,
+      "timestamp": 1771735297203
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735297205
+    },
+    {
+      "health": 80.00000000000001,
+      "timestamp": 1771735298337
+    },
+    {
+      "health": 83.00000000000001,
+      "timestamp": 1771735298864
+    },
+    {
+      "health": 78.00000000000001,
+      "timestamp": 1771735299094
+    },
+    {
+      "health": 77.80000000000001,
+      "timestamp": 1771735299162
+    },
+    {
+      "health": 77.30000000000001,
+      "timestamp": 1771735300641
+    },
+    {
+      "health": 80.30000000000001,
+      "timestamp": 1771735301000
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735301002
+    },
+    {
+      "health": 80.00000000000001,
+      "timestamp": 1771735301079
+    },
+    {
+      "health": 79.80000000000001,
+      "timestamp": 1771735301804
+    },
+    {
+      "health": 74.80000000000001,
+      "timestamp": 1771735302545
+    },
+    {
+      "health": 77.80000000000001,
+      "timestamp": 1771735304083
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735304085
+    },
+    {
+      "health": 80.80000000000001,
+      "timestamp": 1771735304651
+    },
+    {
+      "health": 83.80000000000001,
+      "timestamp": 1771735304850
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735304852
+    },
+    {
+      "health": 86.80000000000001,
+      "timestamp": 1771735305019
+    },
+    {
+      "health": 89.80000000000001,
+      "timestamp": 1771735305317
+    },
+    {
+      "health": 92.80000000000001,
+      "timestamp": 1771735309167
+    },
+    {
+      "health": 0,
+      "timestamp": 1771735309169
+    },
+    {
+      "health": 92.30000000000001,
+      "timestamp": 1771735880494
+    },
+    {
+      "health": 92.00000000000001,
+      "timestamp": 1771735883037
+    },
+    {
+      "health": 90.50000000000001,
+      "timestamp": 1771735884316
+    },
+    {
+      "health": 93.50000000000001,
+      "timestamp": 1771735884507
+    },
+    {
+      "health": 96.50000000000001,
+      "timestamp": 1771735886040
+    },
+    {
+      "health": 55,
+      "timestamp": 1771735886042
+    },
+    {
+      "health": 99.50000000000001,
+      "timestamp": 1771735890319
+    },
+    {
+      "health": 99.30000000000001,
+      "timestamp": 1771735892738
+    },
+    {
+      "health": 98.30000000000001,
+      "timestamp": 1771735895793
+    },
+    {
+      "health": 100,
+      "timestamp": 1771735896251
+    },
+    {
+      "health": 100,
+      "timestamp": 1771735900805
+    },
+    {
+      "health": 25,
+      "timestamp": 1771735900806
+    }
+  ],
+  "threatHistory": [
+    {
+      "threat": 0,
+      "timestamp": 1771703580319
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703584324
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703651662
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703655666
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703816709
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703817996
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703819161
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703820318
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703820998
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703821411
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703822377
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703823831
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703824108
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771703824715
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771703824716
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771703825162
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771703825540
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771703826379
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771703826424
+    },
+    {
+      "threat": 70,
+      "timestamp": 1771703826426
+    },
+    {
+      "threat": 70,
+      "timestamp": 1771703827968
+    },
+    {
+      "threat": 70,
+      "timestamp": 1771703829869
+    },
+    {
+      "threat": 70,
+      "timestamp": 1771703830668
+    },
+    {
+      "threat": 70,
+      "timestamp": 1771703831594
+    },
+    {
+      "threat": 70,
+      "timestamp": 1771703832474
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771703832475
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771703832548
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771703833310
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771703834122
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703834124
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703834880
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703835427
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771703836268
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771703837148
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771703837856
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771703838098
+    },
+    {
+      "threat": 90,
+      "timestamp": 1771703839047
+    },
+    {
+      "threat": 90,
+      "timestamp": 1771703839276
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703839277
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703839441
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703839443
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771703839775
+    },
+    {
+      "threat": 90,
+      "timestamp": 1771703840680
+    },
+    {
+      "threat": 80,
+      "timestamp": 1771703842313
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703842315
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703843159
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703843160
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703843290
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703843291
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703844057
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703844058
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703845859
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771703845860
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771704598778
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771704599601
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771704600952
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771704602414
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771704602612
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771704602794
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771704603425
+    },
+    {
+      "threat": 35,
+      "timestamp": 1771704604458
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771704604460
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771704606014
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771704609439
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771704610425
+    },
+    {
+      "threat": 85,
+      "timestamp": 1771704610426
+    },
+    {
+      "threat": 85,
+      "timestamp": 1771704611015
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771704611017
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771706801322
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771706802107
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771706802990
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771706804011
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771706805115
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771706805329
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771706808995
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771706809019
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771709722451
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771709723389
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771709724330
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771709725672
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771709726397
+    },
+    {
+      "threat": 15,
+      "timestamp": 1771709726398
+    },
+    {
+      "threat": 15,
+      "timestamp": 1771709726462
+    },
+    {
+      "threat": 15,
+      "timestamp": 1771709726705
+    },
+    {
+      "threat": 15,
+      "timestamp": 1771709727830
+    },
+    {
+      "threat": 15,
+      "timestamp": 1771709732712
+    },
+    {
+      "threat": 40,
+      "timestamp": 1771709732714
+    },
+    {
+      "threat": 40,
+      "timestamp": 1771709733681
+    },
+    {
+      "threat": 75,
+      "timestamp": 1771709733688
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771709870239
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771709874241
+    },
+    {
+      "threat": 65,
+      "timestamp": 1771709874242
+    },
+    {
+      "threat": 60,
+      "timestamp": 1771710152528
+    },
+    {
+      "threat": 60,
+      "timestamp": 1771710153889
+    },
+    {
+      "threat": 60,
+      "timestamp": 1771710156540
+    },
+    {
+      "threat": 75,
+      "timestamp": 1771710156541
+    },
+    {
+      "threat": 75,
+      "timestamp": 1771710156896
+    },
+    {
+      "threat": 75,
+      "timestamp": 1771710163333
+    },
+    {
+      "threat": 75,
+      "timestamp": 1771710167341
+    },
+    {
+      "threat": 75,
+      "timestamp": 1771710169748
+    },
+    {
+      "threat": 65,
+      "timestamp": 1771710172759
+    },
+    {
+      "threat": 55,
+      "timestamp": 1771710297588
+    },
+    {
+      "threat": 55,
+      "timestamp": 1771710301599
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771734997407
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771734998358
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771734999389
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771735001362
+    },
+    {
+      "threat": 0,
+      "timestamp": 1771735001415
+    },
+    {
+      "threat": 15,
+      "timestamp": 1771735001416
+    },
+    {
+      "threat": 15,
+      "timestamp": 1771735002904
+    },
+    {
+      "threat": 30,
+      "timestamp": 1771735002906
+    },
+    {
+      "threat": 15,
+      "timestamp": 1771735213530
+    },
+    {
+      "threat": 15,
+      "timestamp": 1771735217540
+    },
+    {
+      "threat": 30,
+      "timestamp": 1771735217541
+    },
+    {
+      "threat": 30,
+      "timestamp": 1771735223792
+    },
+    {
+      "threat": 30,
+      "timestamp": 1771735231796
+    },
+    {
+      "threat": 65,
+      "timestamp": 1771735231798
+    },
+    {
+      "threat": 60,
+      "timestamp": 1771735232716
+    },
+    {
+      "threat": 60,
+      "timestamp": 1771735236721
+    },
+    {
+      "threat": 60,
+      "timestamp": 1771735243799
+    },
+    {
+      "threat": 60,
+      "timestamp": 1771735246663
+    },
+    {
+      "threat": 55,
+      "timestamp": 1771735250803
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735253238
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735260100
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735266035
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735271738
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735273703
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735274469
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735275422
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735276331
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735279209
+    },
+    {
+      "threat": 50,
+      "timestamp": 1771735279470
+    },
+    {
+      "threat": 85,
+      "timestamp": 1771735279472
+    },
+    {
+      "threat": 85,
+      "timestamp": 1771735279715
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735279716
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735279738
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735279739
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735279935
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735279936
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735280615
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735281400
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735282637
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735283034
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735283215
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735283339
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735283622
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735283623
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735284200
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735284899
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735285967
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735288035
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735288036
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735288468
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735289544
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735290237
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735290715
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735291199
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735292188
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735292652
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735292861
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735293249
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735293552
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735294083
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771735294700
+    },
+    {
+      "threat": 80,
+      "timestamp": 1771735294970
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735294973
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735295008
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735295532
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735296480
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735296481
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735296489
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735297203
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735297205
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771735298337
+    },
+    {
+      "threat": 85,
+      "timestamp": 1771735298864
+    },
+    {
+      "threat": 85,
+      "timestamp": 1771735299094
+    },
+    {
+      "threat": 85,
+      "timestamp": 1771735299162
+    },
+    {
+      "threat": 80,
+      "timestamp": 1771735300641
+    },
+    {
+      "threat": 80,
+      "timestamp": 1771735301000
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735301003
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735301079
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735301804
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735302545
+    },
+    {
+      "threat": 95,
+      "timestamp": 1771735304083
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735304085
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735304651
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735304850
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735304852
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735305019
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735305317
+    },
+    {
+      "threat": 80,
+      "timestamp": 1771735309167
+    },
+    {
+      "threat": 100,
+      "timestamp": 1771735309169
+    },
+    {
+      "threat": 30,
+      "timestamp": 1771735880494
+    },
+    {
+      "threat": 30,
+      "timestamp": 1771735883037
+    },
+    {
+      "threat": 30,
+      "timestamp": 1771735884316
+    },
+    {
+      "threat": 30,
+      "timestamp": 1771735884507
+    },
+    {
+      "threat": 30,
+      "timestamp": 1771735886040
+    },
+    {
+      "threat": 45,
+      "timestamp": 1771735886042
+    },
+    {
+      "threat": 45,
+      "timestamp": 1771735890319
+    },
+    {
+      "threat": 45,
+      "timestamp": 1771735892738
+    },
+    {
+      "threat": 45,
+      "timestamp": 1771735895793
+    },
+    {
+      "threat": 45,
+      "timestamp": 1771735896251
+    },
+    {
+      "threat": 40,
+      "timestamp": 1771735900805
+    },
+    {
+      "threat": 75,
+      "timestamp": 1771735900806
+    }
+  ]
+}

@@ -1,0 +1,1890 @@
+{
+  "red": 405,
+  "blue": 846,
+  "history": [
+    {
+      "red": 2,
+      "blue": 0,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771703580319
+    },
+    {
+      "red": 0,
+      "blue": 5,
+      "reason": "Attack blocked: Stored XSS",
+      "timestamp": 1771703584324
+    },
+    {
+      "red": 3,
+      "blue": 4,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771703584326
+    },
+    {
+      "red": 5,
+      "blue": 4,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771703651662
+    },
+    {
+      "red": 15,
+      "blue": 1,
+      "reason": "Attack succeeded: Stored XSS",
+      "timestamp": 1771703655666
+    },
+    {
+      "red": 18,
+      "blue": 0,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771703655667
+    },
+    {
+      "red": 20,
+      "blue": 0,
+      "reason": "Attack launched: Ransomware Simulation",
+      "timestamp": 1771703816709
+    },
+    {
+      "red": 22,
+      "blue": 0,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771703817996
+    },
+    {
+      "red": 24,
+      "blue": 0,
+      "reason": "Attack launched: Privilege Escalation",
+      "timestamp": 1771703819161
+    },
+    {
+      "red": 26,
+      "blue": 0,
+      "reason": "Attack launched: CSRF",
+      "timestamp": 1771703820318
+    },
+    {
+      "red": 24,
+      "blue": 5,
+      "reason": "Attack blocked: Reflected XSS",
+      "timestamp": 1771703820998
+    },
+    {
+      "red": 27,
+      "blue": 4,
+      "reason": "Undetected: Reflected XSS",
+      "timestamp": 1771703820999
+    },
+    {
+      "red": 29,
+      "blue": 4,
+      "reason": "Attack launched: Reverse Shell",
+      "timestamp": 1771703821411
+    },
+    {
+      "red": 31,
+      "blue": 4,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771703822377
+    },
+    {
+      "red": 29,
+      "blue": 9,
+      "reason": "Attack blocked: CSRF",
+      "timestamp": 1771703823831
+    },
+    {
+      "red": 32,
+      "blue": 8,
+      "reason": "Undetected: CSRF",
+      "timestamp": 1771703823832
+    },
+    {
+      "red": 34,
+      "blue": 8,
+      "reason": "Attack launched: SYN Flood (DDoS)",
+      "timestamp": 1771703824108
+    },
+    {
+      "red": 44,
+      "blue": 5,
+      "reason": "Attack succeeded: Ransomware Simulation",
+      "timestamp": 1771703824715
+    },
+    {
+      "red": 44,
+      "blue": 13,
+      "reason": "IDS detected: Ransomware Simulation",
+      "timestamp": 1771703824716
+    },
+    {
+      "red": 44,
+      "blue": 21,
+      "reason": "Auto-mitigation: Ransomware Simulation",
+      "timestamp": 1771703824716
+    },
+    {
+      "red": 44,
+      "blue": 24,
+      "reason": "IP blocked: 10.0.188.156",
+      "timestamp": 1771703824716
+    },
+    {
+      "red": 54,
+      "blue": 21,
+      "reason": "Attack succeeded: Privilege Escalation",
+      "timestamp": 1771703825162
+    },
+    {
+      "red": 57,
+      "blue": 20,
+      "reason": "Undetected: Privilege Escalation",
+      "timestamp": 1771703825163
+    },
+    {
+      "red": 59,
+      "blue": 20,
+      "reason": "Attack launched: Zero-Day Exploit",
+      "timestamp": 1771703825540
+    },
+    {
+      "red": 69,
+      "blue": 17,
+      "reason": "Attack succeeded: Stored XSS",
+      "timestamp": 1771703826379
+    },
+    {
+      "red": 72,
+      "blue": 16,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771703826380
+    },
+    {
+      "red": 70,
+      "blue": 21,
+      "reason": "Attack blocked: Reverse Shell",
+      "timestamp": 1771703826424
+    },
+    {
+      "red": 70,
+      "blue": 29,
+      "reason": "IDS detected: Reverse Shell",
+      "timestamp": 1771703826426
+    },
+    {
+      "red": 70,
+      "blue": 37,
+      "reason": "Auto-mitigation: Reverse Shell",
+      "timestamp": 1771703826426
+    },
+    {
+      "red": 70,
+      "blue": 40,
+      "reason": "IP blocked: 10.0.240.8",
+      "timestamp": 1771703826426
+    },
+    {
+      "red": 72,
+      "blue": 40,
+      "reason": "Attack launched: DNS Spoofing",
+      "timestamp": 1771703827968
+    },
+    {
+      "red": 74,
+      "blue": 40,
+      "reason": "Attack launched: Phishing Campaign",
+      "timestamp": 1771703829869
+    },
+    {
+      "red": 76,
+      "blue": 40,
+      "reason": "Attack launched: Malware Beaconing",
+      "timestamp": 1771703830668
+    },
+    {
+      "red": 78,
+      "blue": 40,
+      "reason": "Attack launched: Man-in-the-Middle",
+      "timestamp": 1771703831594
+    },
+    {
+      "red": 88,
+      "blue": 37,
+      "reason": "Attack succeeded: DNS Spoofing",
+      "timestamp": 1771703832473
+    },
+    {
+      "red": 88,
+      "blue": 45,
+      "reason": "IDS detected: DNS Spoofing",
+      "timestamp": 1771703832475
+    },
+    {
+      "red": 88,
+      "blue": 53,
+      "reason": "Auto-mitigation: DNS Spoofing",
+      "timestamp": 1771703832476
+    },
+    {
+      "red": 88,
+      "blue": 56,
+      "reason": "IP blocked: 10.0.93.226",
+      "timestamp": 1771703832476
+    },
+    {
+      "red": 86,
+      "blue": 61,
+      "reason": "Attack blocked: Zero-Day Exploit",
+      "timestamp": 1771703832548
+    },
+    {
+      "red": 89,
+      "blue": 60,
+      "reason": "Undetected: Zero-Day Exploit",
+      "timestamp": 1771703832549
+    },
+    {
+      "red": 91,
+      "blue": 60,
+      "reason": "Attack launched: Data Exfiltration",
+      "timestamp": 1771703833310
+    },
+    {
+      "red": 89,
+      "blue": 65,
+      "reason": "Attack blocked: SYN Flood (DDoS)",
+      "timestamp": 1771703834122
+    },
+    {
+      "red": 89,
+      "blue": 73,
+      "reason": "IDS detected: SYN Flood (DDoS)",
+      "timestamp": 1771703834124
+    },
+    {
+      "red": 89,
+      "blue": 81,
+      "reason": "Auto-mitigation: SYN Flood (DDoS)",
+      "timestamp": 1771703834124
+    },
+    {
+      "red": 89,
+      "blue": 84,
+      "reason": "IP blocked: 10.0.49.206",
+      "timestamp": 1771703834124
+    },
+    {
+      "red": 87,
+      "blue": 89,
+      "reason": "Attack blocked: Phishing Campaign",
+      "timestamp": 1771703834880
+    },
+    {
+      "red": 90,
+      "blue": 88,
+      "reason": "Undetected: Phishing Campaign",
+      "timestamp": 1771703834881
+    },
+    {
+      "red": 92,
+      "blue": 88,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771703835427
+    },
+    {
+      "red": 94,
+      "blue": 88,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771703836268
+    },
+    {
+      "red": 96,
+      "blue": 88,
+      "reason": "Attack launched: Privilege Escalation",
+      "timestamp": 1771703837148
+    },
+    {
+      "red": 98,
+      "blue": 88,
+      "reason": "Attack launched: Ransomware Simulation",
+      "timestamp": 1771703837856
+    },
+    {
+      "red": 96,
+      "blue": 93,
+      "reason": "Attack blocked: Man-in-the-Middle",
+      "timestamp": 1771703838097
+    },
+    {
+      "red": 99,
+      "blue": 92,
+      "reason": "Undetected: Man-in-the-Middle",
+      "timestamp": 1771703838099
+    },
+    {
+      "red": 101,
+      "blue": 92,
+      "reason": "Attack launched: Reverse Shell",
+      "timestamp": 1771703839047
+    },
+    {
+      "red": 99,
+      "blue": 97,
+      "reason": "Attack blocked: Reflected XSS",
+      "timestamp": 1771703839276
+    },
+    {
+      "red": 99,
+      "blue": 105,
+      "reason": "IDS detected: Reflected XSS",
+      "timestamp": 1771703839277
+    },
+    {
+      "red": 99,
+      "blue": 113,
+      "reason": "Auto-mitigation: Reflected XSS",
+      "timestamp": 1771703839278
+    },
+    {
+      "red": 99,
+      "blue": 116,
+      "reason": "IP blocked: 10.0.113.104",
+      "timestamp": 1771703839278
+    },
+    {
+      "red": 109,
+      "blue": 113,
+      "reason": "Attack succeeded: Stored XSS",
+      "timestamp": 1771703839441
+    },
+    {
+      "red": 109,
+      "blue": 121,
+      "reason": "IDS detected: Stored XSS",
+      "timestamp": 1771703839443
+    },
+    {
+      "red": 109,
+      "blue": 129,
+      "reason": "Auto-mitigation: Stored XSS",
+      "timestamp": 1771703839443
+    },
+    {
+      "red": 109,
+      "blue": 132,
+      "reason": "IP blocked: 10.0.84.204",
+      "timestamp": 1771703839443
+    },
+    {
+      "red": 111,
+      "blue": 132,
+      "reason": "Attack launched: CSRF",
+      "timestamp": 1771703839775
+    },
+    {
+      "red": 109,
+      "blue": 137,
+      "reason": "Attack blocked: Malware Beaconing",
+      "timestamp": 1771703840680
+    },
+    {
+      "red": 112,
+      "blue": 136,
+      "reason": "Undetected: Malware Beaconing",
+      "timestamp": 1771703840681
+    },
+    {
+      "red": 122,
+      "blue": 133,
+      "reason": "Attack succeeded: Data Exfiltration",
+      "timestamp": 1771703842313
+    },
+    {
+      "red": 122,
+      "blue": 141,
+      "reason": "IDS detected: Data Exfiltration",
+      "timestamp": 1771703842315
+    },
+    {
+      "red": 122,
+      "blue": 149,
+      "reason": "Auto-mitigation: Data Exfiltration",
+      "timestamp": 1771703842315
+    },
+    {
+      "red": 122,
+      "blue": 152,
+      "reason": "IP blocked: 10.0.124.133",
+      "timestamp": 1771703842315
+    },
+    {
+      "red": 120,
+      "blue": 157,
+      "reason": "Attack blocked: Privilege Escalation",
+      "timestamp": 1771703843159
+    },
+    {
+      "red": 120,
+      "blue": 165,
+      "reason": "IDS detected: Privilege Escalation",
+      "timestamp": 1771703843160
+    },
+    {
+      "red": 120,
+      "blue": 173,
+      "reason": "Auto-mitigation: Privilege Escalation",
+      "timestamp": 1771703843160
+    },
+    {
+      "red": 120,
+      "blue": 176,
+      "reason": "IP blocked: 10.0.91.119",
+      "timestamp": 1771703843160
+    },
+    {
+      "red": 130,
+      "blue": 173,
+      "reason": "Attack succeeded: CSRF",
+      "timestamp": 1771703843290
+    },
+    {
+      "red": 130,
+      "blue": 181,
+      "reason": "IDS detected: CSRF",
+      "timestamp": 1771703843291
+    },
+    {
+      "red": 130,
+      "blue": 189,
+      "reason": "Auto-mitigation: CSRF",
+      "timestamp": 1771703843291
+    },
+    {
+      "red": 130,
+      "blue": 192,
+      "reason": "IP blocked: 10.0.56.71",
+      "timestamp": 1771703843291
+    },
+    {
+      "red": 128,
+      "blue": 197,
+      "reason": "Attack blocked: Reverse Shell",
+      "timestamp": 1771703844057
+    },
+    {
+      "red": 128,
+      "blue": 205,
+      "reason": "IDS detected: Reverse Shell",
+      "timestamp": 1771703844058
+    },
+    {
+      "red": 128,
+      "blue": 213,
+      "reason": "Auto-mitigation: Reverse Shell",
+      "timestamp": 1771703844058
+    },
+    {
+      "red": 128,
+      "blue": 216,
+      "reason": "IP blocked: 10.0.181.210",
+      "timestamp": 1771703844059
+    },
+    {
+      "red": 126,
+      "blue": 221,
+      "reason": "Attack blocked: Ransomware Simulation",
+      "timestamp": 1771703845858
+    },
+    {
+      "red": 126,
+      "blue": 229,
+      "reason": "IDS detected: Ransomware Simulation",
+      "timestamp": 1771703845860
+    },
+    {
+      "red": 126,
+      "blue": 237,
+      "reason": "Auto-mitigation: Ransomware Simulation",
+      "timestamp": 1771703845860
+    },
+    {
+      "red": 126,
+      "blue": 240,
+      "reason": "IP blocked: 10.0.184.154",
+      "timestamp": 1771703845860
+    },
+    {
+      "red": 128,
+      "blue": 240,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771704598778
+    },
+    {
+      "red": 130,
+      "blue": 240,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771704599601
+    },
+    {
+      "red": 132,
+      "blue": 240,
+      "reason": "Attack launched: CSRF",
+      "timestamp": 1771704600952
+    },
+    {
+      "red": 134,
+      "blue": 240,
+      "reason": "Attack launched: Ransomware Simulation",
+      "timestamp": 1771704602414
+    },
+    {
+      "red": 144,
+      "blue": 237,
+      "reason": "Attack succeeded: Reflected XSS",
+      "timestamp": 1771704602612
+    },
+    {
+      "red": 147,
+      "blue": 236,
+      "reason": "Undetected: Reflected XSS",
+      "timestamp": 1771704602613
+    },
+    {
+      "red": 145,
+      "blue": 241,
+      "reason": "Attack blocked: Stored XSS",
+      "timestamp": 1771704602793
+    },
+    {
+      "red": 148,
+      "blue": 240,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771704602795
+    },
+    {
+      "red": 150,
+      "blue": 240,
+      "reason": "Attack launched: Privilege Escalation",
+      "timestamp": 1771704603425
+    },
+    {
+      "red": 148,
+      "blue": 245,
+      "reason": "Attack blocked: CSRF",
+      "timestamp": 1771704604458
+    },
+    {
+      "red": 148,
+      "blue": 253,
+      "reason": "IDS detected: CSRF",
+      "timestamp": 1771704604460
+    },
+    {
+      "red": 148,
+      "blue": 257,
+      "reason": "Auto-mitigation: CSRF",
+      "timestamp": 1771704604460
+    },
+    {
+      "red": 150,
+      "blue": 257,
+      "reason": "Attack launched: Reverse Shell",
+      "timestamp": 1771704606014
+    },
+    {
+      "red": 148,
+      "blue": 262,
+      "reason": "Attack blocked: Privilege Escalation",
+      "timestamp": 1771704609438
+    },
+    {
+      "red": 151,
+      "blue": 261,
+      "reason": "Undetected: Privilege Escalation",
+      "timestamp": 1771704609440
+    },
+    {
+      "red": 149,
+      "blue": 266,
+      "reason": "Attack blocked: Ransomware Simulation",
+      "timestamp": 1771704610425
+    },
+    {
+      "red": 149,
+      "blue": 274,
+      "reason": "IDS detected: Ransomware Simulation",
+      "timestamp": 1771704610426
+    },
+    {
+      "red": 149,
+      "blue": 282,
+      "reason": "Auto-mitigation: Ransomware Simulation",
+      "timestamp": 1771704610427
+    },
+    {
+      "red": 149,
+      "blue": 285,
+      "reason": "IP blocked: 10.0.110.222",
+      "timestamp": 1771704610427
+    },
+    {
+      "red": 147,
+      "blue": 290,
+      "reason": "Attack blocked: Reverse Shell",
+      "timestamp": 1771704611015
+    },
+    {
+      "red": 147,
+      "blue": 298,
+      "reason": "IDS detected: Reverse Shell",
+      "timestamp": 1771704611017
+    },
+    {
+      "red": 147,
+      "blue": 306,
+      "reason": "Auto-mitigation: Reverse Shell",
+      "timestamp": 1771704611017
+    },
+    {
+      "red": 147,
+      "blue": 309,
+      "reason": "IP blocked: 10.0.184.122",
+      "timestamp": 1771704611017
+    },
+    {
+      "red": 149,
+      "blue": 309,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771706801322
+    },
+    {
+      "red": 151,
+      "blue": 309,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771706802107
+    },
+    {
+      "red": 153,
+      "blue": 309,
+      "reason": "Attack launched: Privilege Escalation",
+      "timestamp": 1771706802990
+    },
+    {
+      "red": 155,
+      "blue": 309,
+      "reason": "Attack launched: Reverse Shell",
+      "timestamp": 1771706804010
+    },
+    {
+      "red": 153,
+      "blue": 314,
+      "reason": "Attack blocked: Reflected XSS",
+      "timestamp": 1771706805115
+    },
+    {
+      "red": 156,
+      "blue": 313,
+      "reason": "Undetected: Reflected XSS",
+      "timestamp": 1771706805117
+    },
+    {
+      "red": 166,
+      "blue": 310,
+      "reason": "Attack succeeded: Stored XSS",
+      "timestamp": 1771706805329
+    },
+    {
+      "red": 169,
+      "blue": 309,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771706805330
+    },
+    {
+      "red": 179,
+      "blue": 306,
+      "reason": "Attack succeeded: Privilege Escalation",
+      "timestamp": 1771706808995
+    },
+    {
+      "red": 182,
+      "blue": 305,
+      "reason": "Undetected: Privilege Escalation",
+      "timestamp": 1771706808996
+    },
+    {
+      "red": 180,
+      "blue": 310,
+      "reason": "Attack blocked: Reverse Shell",
+      "timestamp": 1771706809019
+    },
+    {
+      "red": 183,
+      "blue": 309,
+      "reason": "Undetected: Reverse Shell",
+      "timestamp": 1771706809020
+    },
+    {
+      "red": 185,
+      "blue": 309,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771709722451
+    },
+    {
+      "red": 187,
+      "blue": 309,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771709723389
+    },
+    {
+      "red": 189,
+      "blue": 309,
+      "reason": "Attack launched: CSRF",
+      "timestamp": 1771709724330
+    },
+    {
+      "red": 191,
+      "blue": 309,
+      "reason": "Attack launched: Ransomware Simulation",
+      "timestamp": 1771709725672
+    },
+    {
+      "red": 189,
+      "blue": 314,
+      "reason": "Attack blocked: Reflected XSS",
+      "timestamp": 1771709726397
+    },
+    {
+      "red": 189,
+      "blue": 322,
+      "reason": "IDS detected: Reflected XSS",
+      "timestamp": 1771709726398
+    },
+    {
+      "red": 189,
+      "blue": 326,
+      "reason": "Auto-mitigation: Reflected XSS",
+      "timestamp": 1771709726398
+    },
+    {
+      "red": 187,
+      "blue": 331,
+      "reason": "Attack blocked: Stored XSS",
+      "timestamp": 1771709726462
+    },
+    {
+      "red": 190,
+      "blue": 330,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771709726462
+    },
+    {
+      "red": 192,
+      "blue": 330,
+      "reason": "Attack launched: Privilege Escalation",
+      "timestamp": 1771709726705
+    },
+    {
+      "red": 190,
+      "blue": 335,
+      "reason": "Attack blocked: CSRF",
+      "timestamp": 1771709727830
+    },
+    {
+      "red": 193,
+      "blue": 334,
+      "reason": "Undetected: CSRF",
+      "timestamp": 1771709727832
+    },
+    {
+      "red": 191,
+      "blue": 339,
+      "reason": "Attack blocked: Privilege Escalation",
+      "timestamp": 1771709732712
+    },
+    {
+      "red": 191,
+      "blue": 347,
+      "reason": "IDS detected: Privilege Escalation",
+      "timestamp": 1771709732714
+    },
+    {
+      "red": 191,
+      "blue": 351,
+      "reason": "Auto-mitigation: Privilege Escalation",
+      "timestamp": 1771709732714
+    },
+    {
+      "red": 201,
+      "blue": 348,
+      "reason": "Attack succeeded: Ransomware Simulation",
+      "timestamp": 1771709733681
+    },
+    {
+      "red": 201,
+      "blue": 356,
+      "reason": "IDS detected: Ransomware Simulation",
+      "timestamp": 1771709733688
+    },
+    {
+      "red": 201,
+      "blue": 364,
+      "reason": "Auto-mitigation: Ransomware Simulation",
+      "timestamp": 1771709733688
+    },
+    {
+      "red": 201,
+      "blue": 367,
+      "reason": "IP blocked: 10.0.83.192",
+      "timestamp": 1771709733688
+    },
+    {
+      "red": 203,
+      "blue": 367,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771709870239
+    },
+    {
+      "red": 201,
+      "blue": 372,
+      "reason": "Attack blocked: Stored XSS",
+      "timestamp": 1771709874241
+    },
+    {
+      "red": 201,
+      "blue": 380,
+      "reason": "IDS detected: Stored XSS",
+      "timestamp": 1771709874242
+    },
+    {
+      "red": 201,
+      "blue": 386,
+      "reason": "Auto-mitigation: Stored XSS",
+      "timestamp": 1771709874243
+    },
+    {
+      "red": 203,
+      "blue": 386,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771710152528
+    },
+    {
+      "red": 205,
+      "blue": 386,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771710153889
+    },
+    {
+      "red": 215,
+      "blue": 383,
+      "reason": "Attack succeeded: Stored XSS",
+      "timestamp": 1771710156540
+    },
+    {
+      "red": 215,
+      "blue": 391,
+      "reason": "IDS detected: Stored XSS",
+      "timestamp": 1771710156541
+    },
+    {
+      "red": 215,
+      "blue": 397,
+      "reason": "Auto-mitigation: Stored XSS",
+      "timestamp": 1771710156541
+    },
+    {
+      "red": 215,
+      "blue": 400,
+      "reason": "IP blocked: 10.0.86.33",
+      "timestamp": 1771710156541
+    },
+    {
+      "red": 213,
+      "blue": 405,
+      "reason": "Attack blocked: Reflected XSS",
+      "timestamp": 1771710156896
+    },
+    {
+      "red": 216,
+      "blue": 404,
+      "reason": "Undetected: Reflected XSS",
+      "timestamp": 1771710156896
+    },
+    {
+      "red": 218,
+      "blue": 404,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771710163333
+    },
+    {
+      "red": 228,
+      "blue": 401,
+      "reason": "Attack succeeded: Stored XSS",
+      "timestamp": 1771710167341
+    },
+    {
+      "red": 231,
+      "blue": 400,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771710167342
+    },
+    {
+      "red": 233,
+      "blue": 400,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771710169748
+    },
+    {
+      "red": 243,
+      "blue": 397,
+      "reason": "Attack succeeded: Reflected XSS",
+      "timestamp": 1771710172759
+    },
+    {
+      "red": 246,
+      "blue": 396,
+      "reason": "Undetected: Reflected XSS",
+      "timestamp": 1771710172759
+    },
+    {
+      "red": 248,
+      "blue": 396,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771710297588
+    },
+    {
+      "red": 246,
+      "blue": 401,
+      "reason": "Attack blocked: Stored XSS",
+      "timestamp": 1771710301599
+    },
+    {
+      "red": 249,
+      "blue": 400,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771710301600
+    },
+    {
+      "red": 251,
+      "blue": 400,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771734997407
+    },
+    {
+      "red": 253,
+      "blue": 400,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771734998358
+    },
+    {
+      "red": 255,
+      "blue": 400,
+      "reason": "Attack launched: CSRF",
+      "timestamp": 1771734999389
+    },
+    {
+      "red": 265,
+      "blue": 397,
+      "reason": "Attack succeeded: Reflected XSS",
+      "timestamp": 1771735001361
+    },
+    {
+      "red": 268,
+      "blue": 396,
+      "reason": "Undetected: Reflected XSS",
+      "timestamp": 1771735001364
+    },
+    {
+      "red": 278,
+      "blue": 393,
+      "reason": "Attack succeeded: Stored XSS",
+      "timestamp": 1771735001415
+    },
+    {
+      "red": 278,
+      "blue": 401,
+      "reason": "IDS detected: Stored XSS",
+      "timestamp": 1771735001416
+    },
+    {
+      "red": 278,
+      "blue": 405,
+      "reason": "Auto-mitigation: Stored XSS",
+      "timestamp": 1771735001417
+    },
+    {
+      "red": 288,
+      "blue": 402,
+      "reason": "Attack succeeded: CSRF",
+      "timestamp": 1771735002904
+    },
+    {
+      "red": 288,
+      "blue": 410,
+      "reason": "IDS detected: CSRF",
+      "timestamp": 1771735002906
+    },
+    {
+      "red": 288,
+      "blue": 414,
+      "reason": "Auto-mitigation: CSRF",
+      "timestamp": 1771735002906
+    },
+    {
+      "red": 290,
+      "blue": 414,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771735213530
+    },
+    {
+      "red": 288,
+      "blue": 419,
+      "reason": "Attack blocked: Stored XSS",
+      "timestamp": 1771735217540
+    },
+    {
+      "red": 288,
+      "blue": 427,
+      "reason": "IDS detected: Stored XSS",
+      "timestamp": 1771735217541
+    },
+    {
+      "red": 288,
+      "blue": 431,
+      "reason": "Auto-mitigation: Stored XSS",
+      "timestamp": 1771735217541
+    },
+    {
+      "red": 290,
+      "blue": 431,
+      "reason": "Attack launched: Ransomware Simulation",
+      "timestamp": 1771735223792
+    },
+    {
+      "red": 288,
+      "blue": 436,
+      "reason": "Attack blocked: Ransomware Simulation",
+      "timestamp": 1771735231796
+    },
+    {
+      "red": 288,
+      "blue": 444,
+      "reason": "IDS detected: Ransomware Simulation",
+      "timestamp": 1771735231798
+    },
+    {
+      "red": 288,
+      "blue": 452,
+      "reason": "Auto-mitigation: Ransomware Simulation",
+      "timestamp": 1771735231799
+    },
+    {
+      "red": 288,
+      "blue": 455,
+      "reason": "IP blocked: 10.0.10.137",
+      "timestamp": 1771735231799
+    },
+    {
+      "red": 290,
+      "blue": 455,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771735232716
+    },
+    {
+      "red": 300,
+      "blue": 452,
+      "reason": "Attack succeeded: Stored XSS",
+      "timestamp": 1771735236721
+    },
+    {
+      "red": 303,
+      "blue": 451,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771735236723
+    },
+    {
+      "red": 305,
+      "blue": 451,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771735243799
+    },
+    {
+      "red": 304,
+      "blue": 453,
+      "reason": "Attack cancelled: Reflected XSS",
+      "timestamp": 1771735246663
+    },
+    {
+      "red": 306,
+      "blue": 453,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771735250803
+    },
+    {
+      "red": 305,
+      "blue": 455,
+      "reason": "Attack cancelled: Reflected XSS",
+      "timestamp": 1771735253238
+    },
+    {
+      "red": 307,
+      "blue": 455,
+      "reason": "Attack launched: Zero-Day Exploit",
+      "timestamp": 1771735260100
+    },
+    {
+      "red": 306,
+      "blue": 457,
+      "reason": "Attack cancelled: Zero-Day Exploit",
+      "timestamp": 1771735266035
+    },
+    {
+      "red": 308,
+      "blue": 457,
+      "reason": "Attack launched: Ransomware Simulation",
+      "timestamp": 1771735271738
+    },
+    {
+      "red": 310,
+      "blue": 457,
+      "reason": "Attack launched: Privilege Escalation",
+      "timestamp": 1771735273703
+    },
+    {
+      "red": 312,
+      "blue": 457,
+      "reason": "Attack launched: Reverse Shell",
+      "timestamp": 1771735274469
+    },
+    {
+      "red": 314,
+      "blue": 457,
+      "reason": "Attack launched: DNS Spoofing",
+      "timestamp": 1771735275422
+    },
+    {
+      "red": 316,
+      "blue": 457,
+      "reason": "Attack launched: Zero-Day Exploit",
+      "timestamp": 1771735276331
+    },
+    {
+      "red": 318,
+      "blue": 457,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771735279209
+    },
+    {
+      "red": 316,
+      "blue": 462,
+      "reason": "Attack blocked: Reverse Shell",
+      "timestamp": 1771735279470
+    },
+    {
+      "red": 316,
+      "blue": 470,
+      "reason": "IDS detected: Reverse Shell",
+      "timestamp": 1771735279472
+    },
+    {
+      "red": 316,
+      "blue": 478,
+      "reason": "Auto-mitigation: Reverse Shell",
+      "timestamp": 1771735279472
+    },
+    {
+      "red": 316,
+      "blue": 481,
+      "reason": "IP blocked: 10.0.188.151",
+      "timestamp": 1771735279472
+    },
+    {
+      "red": 314,
+      "blue": 486,
+      "reason": "Attack blocked: Privilege Escalation",
+      "timestamp": 1771735279714
+    },
+    {
+      "red": 314,
+      "blue": 494,
+      "reason": "IDS detected: Privilege Escalation",
+      "timestamp": 1771735279716
+    },
+    {
+      "red": 314,
+      "blue": 502,
+      "reason": "Auto-mitigation: Privilege Escalation",
+      "timestamp": 1771735279716
+    },
+    {
+      "red": 314,
+      "blue": 505,
+      "reason": "IP blocked: 10.0.25.130",
+      "timestamp": 1771735279716
+    },
+    {
+      "red": 312,
+      "blue": 510,
+      "reason": "Attack blocked: Ransomware Simulation",
+      "timestamp": 1771735279738
+    },
+    {
+      "red": 312,
+      "blue": 518,
+      "reason": "IDS detected: Ransomware Simulation",
+      "timestamp": 1771735279739
+    },
+    {
+      "red": 312,
+      "blue": 526,
+      "reason": "Auto-mitigation: Ransomware Simulation",
+      "timestamp": 1771735279740
+    },
+    {
+      "red": 312,
+      "blue": 529,
+      "reason": "IP blocked: 10.0.2.247",
+      "timestamp": 1771735279740
+    },
+    {
+      "red": 310,
+      "blue": 534,
+      "reason": "Attack blocked: DNS Spoofing",
+      "timestamp": 1771735279935
+    },
+    {
+      "red": 310,
+      "blue": 542,
+      "reason": "IDS detected: DNS Spoofing",
+      "timestamp": 1771735279936
+    },
+    {
+      "red": 310,
+      "blue": 550,
+      "reason": "Auto-mitigation: DNS Spoofing",
+      "timestamp": 1771735279936
+    },
+    {
+      "red": 310,
+      "blue": 553,
+      "reason": "IP blocked: 10.0.97.61",
+      "timestamp": 1771735279936
+    },
+    {
+      "red": 312,
+      "blue": 553,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771735280614
+    },
+    {
+      "red": 314,
+      "blue": 553,
+      "reason": "Attack launched: CSRF",
+      "timestamp": 1771735281400
+    },
+    {
+      "red": 316,
+      "blue": 553,
+      "reason": "Attack launched: Malware Beaconing",
+      "timestamp": 1771735282637
+    },
+    {
+      "red": 318,
+      "blue": 553,
+      "reason": "Attack launched: Phishing Campaign",
+      "timestamp": 1771735283034
+    },
+    {
+      "red": 328,
+      "blue": 550,
+      "reason": "Attack succeeded: Stored XSS",
+      "timestamp": 1771735283215
+    },
+    {
+      "red": 331,
+      "blue": 549,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771735283217
+    },
+    {
+      "red": 329,
+      "blue": 554,
+      "reason": "Attack blocked: Zero-Day Exploit",
+      "timestamp": 1771735283339
+    },
+    {
+      "red": 332,
+      "blue": 553,
+      "reason": "Undetected: Zero-Day Exploit",
+      "timestamp": 1771735283341
+    },
+    {
+      "red": 330,
+      "blue": 558,
+      "reason": "Attack blocked: Reflected XSS",
+      "timestamp": 1771735283622
+    },
+    {
+      "red": 330,
+      "blue": 566,
+      "reason": "IDS detected: Reflected XSS",
+      "timestamp": 1771735283623
+    },
+    {
+      "red": 330,
+      "blue": 574,
+      "reason": "Auto-mitigation: Reflected XSS",
+      "timestamp": 1771735283624
+    },
+    {
+      "red": 330,
+      "blue": 577,
+      "reason": "IP blocked: 10.0.10.101",
+      "timestamp": 1771735283624
+    },
+    {
+      "red": 332,
+      "blue": 577,
+      "reason": "Attack launched: Man-in-the-Middle",
+      "timestamp": 1771735284200
+    },
+    {
+      "red": 330,
+      "blue": 582,
+      "reason": "Attack blocked: CSRF",
+      "timestamp": 1771735284899
+    },
+    {
+      "red": 333,
+      "blue": 581,
+      "reason": "Undetected: CSRF",
+      "timestamp": 1771735284901
+    },
+    {
+      "red": 335,
+      "blue": 581,
+      "reason": "Attack launched: Data Exfiltration",
+      "timestamp": 1771735285967
+    },
+    {
+      "red": 333,
+      "blue": 586,
+      "reason": "Attack blocked: Phishing Campaign",
+      "timestamp": 1771735288035
+    },
+    {
+      "red": 333,
+      "blue": 594,
+      "reason": "IDS detected: Phishing Campaign",
+      "timestamp": 1771735288036
+    },
+    {
+      "red": 333,
+      "blue": 602,
+      "reason": "Auto-mitigation: Phishing Campaign",
+      "timestamp": 1771735288037
+    },
+    {
+      "red": 333,
+      "blue": 605,
+      "reason": "IP blocked: 10.0.70.131",
+      "timestamp": 1771735288037
+    },
+    {
+      "red": 335,
+      "blue": 605,
+      "reason": "Attack launched: Ransomware Simulation",
+      "timestamp": 1771735288468
+    },
+    {
+      "red": 337,
+      "blue": 605,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771735289543
+    },
+    {
+      "red": 339,
+      "blue": 605,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771735290237
+    },
+    {
+      "red": 337,
+      "blue": 610,
+      "reason": "Attack blocked: Man-in-the-Middle",
+      "timestamp": 1771735290715
+    },
+    {
+      "red": 340,
+      "blue": 609,
+      "reason": "Undetected: Man-in-the-Middle",
+      "timestamp": 1771735290716
+    },
+    {
+      "red": 342,
+      "blue": 609,
+      "reason": "Attack launched: CSRF",
+      "timestamp": 1771735291199
+    },
+    {
+      "red": 344,
+      "blue": 609,
+      "reason": "Attack launched: Reverse Shell",
+      "timestamp": 1771735292188
+    },
+    {
+      "red": 342,
+      "blue": 614,
+      "reason": "Attack blocked: Malware Beaconing",
+      "timestamp": 1771735292651
+    },
+    {
+      "red": 345,
+      "blue": 613,
+      "reason": "Undetected: Malware Beaconing",
+      "timestamp": 1771735292653
+    },
+    {
+      "red": 347,
+      "blue": 613,
+      "reason": "Attack launched: Privilege Escalation",
+      "timestamp": 1771735292861
+    },
+    {
+      "red": 345,
+      "blue": 618,
+      "reason": "Attack blocked: Reflected XSS",
+      "timestamp": 1771735293249
+    },
+    {
+      "red": 348,
+      "blue": 617,
+      "reason": "Undetected: Reflected XSS",
+      "timestamp": 1771735293251
+    },
+    {
+      "red": 346,
+      "blue": 622,
+      "reason": "Attack blocked: Stored XSS",
+      "timestamp": 1771735293552
+    },
+    {
+      "red": 349,
+      "blue": 621,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771735293553
+    },
+    {
+      "red": 351,
+      "blue": 621,
+      "reason": "Attack launched: Phishing Campaign",
+      "timestamp": 1771735294083
+    },
+    {
+      "red": 361,
+      "blue": 618,
+      "reason": "Attack succeeded: CSRF",
+      "timestamp": 1771735294700
+    },
+    {
+      "red": 364,
+      "blue": 617,
+      "reason": "Undetected: CSRF",
+      "timestamp": 1771735294701
+    },
+    {
+      "red": 362,
+      "blue": 622,
+      "reason": "Attack blocked: Data Exfiltration",
+      "timestamp": 1771735294970
+    },
+    {
+      "red": 362,
+      "blue": 630,
+      "reason": "IDS detected: Data Exfiltration",
+      "timestamp": 1771735294973
+    },
+    {
+      "red": 362,
+      "blue": 638,
+      "reason": "Auto-mitigation: Data Exfiltration",
+      "timestamp": 1771735294974
+    },
+    {
+      "red": 362,
+      "blue": 641,
+      "reason": "IP blocked: 10.0.44.201",
+      "timestamp": 1771735294974
+    },
+    {
+      "red": 364,
+      "blue": 641,
+      "reason": "Attack launched: SYN Flood (DDoS)",
+      "timestamp": 1771735295008
+    },
+    {
+      "red": 366,
+      "blue": 641,
+      "reason": "Attack launched: Zero-Day Exploit",
+      "timestamp": 1771735295532
+    },
+    {
+      "red": 364,
+      "blue": 646,
+      "reason": "Attack blocked: Ransomware Simulation",
+      "timestamp": 1771735296480
+    },
+    {
+      "red": 364,
+      "blue": 654,
+      "reason": "IDS detected: Ransomware Simulation",
+      "timestamp": 1771735296481
+    },
+    {
+      "red": 364,
+      "blue": 662,
+      "reason": "Auto-mitigation: Ransomware Simulation",
+      "timestamp": 1771735296482
+    },
+    {
+      "red": 364,
+      "blue": 665,
+      "reason": "IP blocked: 10.0.106.28",
+      "timestamp": 1771735296482
+    },
+    {
+      "red": 366,
+      "blue": 665,
+      "reason": "Attack launched: DNS Spoofing",
+      "timestamp": 1771735296489
+    },
+    {
+      "red": 364,
+      "blue": 670,
+      "reason": "Attack blocked: Reverse Shell",
+      "timestamp": 1771735297203
+    },
+    {
+      "red": 364,
+      "blue": 678,
+      "reason": "IDS detected: Reverse Shell",
+      "timestamp": 1771735297205
+    },
+    {
+      "red": 364,
+      "blue": 686,
+      "reason": "Auto-mitigation: Reverse Shell",
+      "timestamp": 1771735297205
+    },
+    {
+      "red": 364,
+      "blue": 689,
+      "reason": "IP blocked: 10.0.88.38",
+      "timestamp": 1771735297205
+    },
+    {
+      "red": 366,
+      "blue": 689,
+      "reason": "Attack launched: Man-in-the-Middle",
+      "timestamp": 1771735298337
+    },
+    {
+      "red": 364,
+      "blue": 694,
+      "reason": "Attack blocked: Privilege Escalation",
+      "timestamp": 1771735298864
+    },
+    {
+      "red": 367,
+      "blue": 693,
+      "reason": "Undetected: Privilege Escalation",
+      "timestamp": 1771735298865
+    },
+    {
+      "red": 377,
+      "blue": 690,
+      "reason": "Attack succeeded: Phishing Campaign",
+      "timestamp": 1771735299094
+    },
+    {
+      "red": 380,
+      "blue": 689,
+      "reason": "Undetected: Phishing Campaign",
+      "timestamp": 1771735299095
+    },
+    {
+      "red": 382,
+      "blue": 689,
+      "reason": "Attack launched: Malware Beaconing",
+      "timestamp": 1771735299162
+    },
+    {
+      "red": 384,
+      "blue": 689,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771735300640
+    },
+    {
+      "red": 382,
+      "blue": 694,
+      "reason": "Attack blocked: DNS Spoofing",
+      "timestamp": 1771735301000
+    },
+    {
+      "red": 382,
+      "blue": 702,
+      "reason": "IDS detected: DNS Spoofing",
+      "timestamp": 1771735301002
+    },
+    {
+      "red": 382,
+      "blue": 710,
+      "reason": "Auto-mitigation: DNS Spoofing",
+      "timestamp": 1771735301003
+    },
+    {
+      "red": 382,
+      "blue": 713,
+      "reason": "IP blocked: 10.0.248.14",
+      "timestamp": 1771735301003
+    },
+    {
+      "red": 384,
+      "blue": 713,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771735301079
+    },
+    {
+      "red": 386,
+      "blue": 713,
+      "reason": "Attack launched: CSRF",
+      "timestamp": 1771735301804
+    },
+    {
+      "red": 396,
+      "blue": 710,
+      "reason": "Attack succeeded: Zero-Day Exploit",
+      "timestamp": 1771735302545
+    },
+    {
+      "red": 399,
+      "blue": 709,
+      "reason": "Undetected: Zero-Day Exploit",
+      "timestamp": 1771735302547
+    },
+    {
+      "red": 397,
+      "blue": 714,
+      "reason": "Attack blocked: Reflected XSS",
+      "timestamp": 1771735304083
+    },
+    {
+      "red": 397,
+      "blue": 722,
+      "reason": "IDS detected: Reflected XSS",
+      "timestamp": 1771735304085
+    },
+    {
+      "red": 397,
+      "blue": 730,
+      "reason": "Auto-mitigation: Reflected XSS",
+      "timestamp": 1771735304085
+    },
+    {
+      "red": 397,
+      "blue": 733,
+      "reason": "IP blocked: 10.0.113.252",
+      "timestamp": 1771735304085
+    },
+    {
+      "red": 395,
+      "blue": 738,
+      "reason": "Attack blocked: Stored XSS",
+      "timestamp": 1771735304651
+    },
+    {
+      "red": 398,
+      "blue": 737,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771735304653
+    },
+    {
+      "red": 396,
+      "blue": 742,
+      "reason": "Attack blocked: Man-in-the-Middle",
+      "timestamp": 1771735304850
+    },
+    {
+      "red": 396,
+      "blue": 750,
+      "reason": "IDS detected: Man-in-the-Middle",
+      "timestamp": 1771735304852
+    },
+    {
+      "red": 396,
+      "blue": 758,
+      "reason": "Auto-mitigation: Man-in-the-Middle",
+      "timestamp": 1771735304852
+    },
+    {
+      "red": 396,
+      "blue": 761,
+      "reason": "IP blocked: 10.0.191.116",
+      "timestamp": 1771735304852
+    },
+    {
+      "red": 394,
+      "blue": 766,
+      "reason": "Attack blocked: SYN Flood (DDoS)",
+      "timestamp": 1771735305019
+    },
+    {
+      "red": 397,
+      "blue": 765,
+      "reason": "Undetected: SYN Flood (DDoS)",
+      "timestamp": 1771735305023
+    },
+    {
+      "red": 395,
+      "blue": 770,
+      "reason": "Attack blocked: CSRF",
+      "timestamp": 1771735305317
+    },
+    {
+      "red": 398,
+      "blue": 769,
+      "reason": "Undetected: CSRF",
+      "timestamp": 1771735305319
+    },
+    {
+      "red": 396,
+      "blue": 774,
+      "reason": "Attack blocked: Malware Beaconing",
+      "timestamp": 1771735309167
+    },
+    {
+      "red": 396,
+      "blue": 782,
+      "reason": "IDS detected: Malware Beaconing",
+      "timestamp": 1771735309169
+    },
+    {
+      "red": 396,
+      "blue": 790,
+      "reason": "Auto-mitigation: Malware Beaconing",
+      "timestamp": 1771735309169
+    },
+    {
+      "red": 396,
+      "blue": 793,
+      "reason": "IP blocked: 10.0.177.92",
+      "timestamp": 1771735309169
+    },
+    {
+      "red": 398,
+      "blue": 793,
+      "reason": "Attack launched: Stored XSS",
+      "timestamp": 1771735880494
+    },
+    {
+      "red": 400,
+      "blue": 793,
+      "reason": "Attack launched: Reflected XSS",
+      "timestamp": 1771735883037
+    },
+    {
+      "red": 402,
+      "blue": 793,
+      "reason": "Attack launched: Privilege Escalation",
+      "timestamp": 1771735884316
+    },
+    {
+      "red": 400,
+      "blue": 798,
+      "reason": "Attack blocked: Stored XSS",
+      "timestamp": 1771735884507
+    },
+    {
+      "red": 403,
+      "blue": 797,
+      "reason": "Undetected: Stored XSS",
+      "timestamp": 1771735884509
+    },
+    {
+      "red": 401,
+      "blue": 802,
+      "reason": "Attack blocked: Reflected XSS",
+      "timestamp": 1771735886040
+    },
+    {
+      "red": 401,
+      "blue": 810,
+      "reason": "IDS detected: Reflected XSS",
+      "timestamp": 1771735886042
+    },
+    {
+      "red": 401,
+      "blue": 814,
+      "reason": "Auto-mitigation: Reflected XSS",
+      "timestamp": 1771735886043
+    },
+    {
+      "red": 399,
+      "blue": 819,
+      "reason": "Attack blocked: Privilege Escalation",
+      "timestamp": 1771735890319
+    },
+    {
+      "red": 402,
+      "blue": 818,
+      "reason": "Undetected: Privilege Escalation",
+      "timestamp": 1771735890320
+    },
+    {
+      "red": 404,
+      "blue": 818,
+      "reason": "Attack launched: CSRF",
+      "timestamp": 1771735892738
+    },
+    {
+      "red": 406,
+      "blue": 818,
+      "reason": "Attack launched: Reverse Shell",
+      "timestamp": 1771735895793
+    },
+    {
+      "red": 404,
+      "blue": 823,
+      "reason": "Attack blocked: CSRF",
+      "timestamp": 1771735896251
+    },
+    {
+      "red": 407,
+      "blue": 822,
+      "reason": "Undetected: CSRF",
+      "timestamp": 1771735896252
+    },
+    {
+      "red": 405,
+      "blue": 827,
+      "reason": "Attack blocked: Reverse Shell",
+      "timestamp": 1771735900805
+    },
+    {
+      "red": 405,
+      "blue": 835,
+      "reason": "IDS detected: Reverse Shell",
+      "timestamp": 1771735900806
+    },
+    {
+      "red": 405,
+      "blue": 843,
+      "reason": "Auto-mitigation: Reverse Shell",
+      "timestamp": 1771735900807
+    },
+    {
+      "red": 405,
+      "blue": 846,
+      "reason": "IP blocked: 10.0.168.116",
+      "timestamp": 1771735900807
+    }
+  ]
+}
